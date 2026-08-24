@@ -1,0 +1,37 @@
+{
+  "vendor_name": "NorthStar Analytics",
+  "service": "Cloud-based customer analytics platform",
+  "business_owner": "Marketing",
+  "deployment_model": "SaaS",
+  "business_criticality": "High",
+  "hosting_provider": "Fictional Cloud Provider",
+  "data_access": {
+    "personal_information": true,
+    "payment_card_data": false,
+    "health_information": false,
+    "confidential_business_data": true
+  },
+  "integration": {
+    "sso_supported": true,
+    "mfa_supported": true,
+    "api_access": true,
+    "privileged_access": false
+  },
+  "security_responses": {
+    "soc_2_type_2": true,
+    "iso_27001": false,
+    "penetration_testing": false,
+    "edr_deployed": false,
+    "log_retention_days": 30,
+    "encryption_at_rest": true,
+    "encryption_in_transit": true,
+    "incident_response_plan": true,
+    "business_continuity_plan": true,
+    "subprocessor_management": "Partial"
+  },
+  "vendor_commitments": {
+    "penetration_test": "Within 120 days of contract execution",
+    "edr_implementation": "Within 30 days of contract execution",
+    "log_retention": "Increase to 180 days within 60 days"
+  }
+}

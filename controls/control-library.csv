@@ -1,0 +1,10 @@
+control_id,domain,requirement,severity,evidence_expected
+TPRM-01,Independent Assurance,Vendor maintains current independent assurance evidence,High,SOC 2 Type II report or ISO 27001 certificate
+VM-01,Vulnerability Management,Vendor conducts annual independent penetration testing,High,Penetration test executive summary
+EP-01,Endpoint Security,Vendor deploys endpoint detection and response technology,High,EDR configuration or coverage report
+LOG-01,Logging and Monitoring,Security logs are retained for at least 180 days,Medium,Logging policy or platform configuration
+IAM-01,Identity and Access Management,MFA is required for administrative and remote access,High,MFA configuration evidence
+ENC-01,Encryption,Sensitive information is encrypted at rest and in transit,High,Encryption standards and configuration
+IR-01,Incident Response,Vendor maintains and tests an incident response plan,High,Incident response plan and exercise results
+BC-01,Business Continuity,Vendor maintains tested continuity and recovery procedures,Medium,BCDR plan and test results
+TPRM-02,Fourth-Party Risk,Vendor evaluates security risks associated with subprocessors,Medium,Subprocessor inventory and review procedure

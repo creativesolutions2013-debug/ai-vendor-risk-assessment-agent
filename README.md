@@ -1,5 +1,5 @@
 # AI Vendor Risk Assessment Agent
-
+[![Vendor Assessment Tests](https://github.com/creativesolutions2013-debug/ai-vendor-risk-assessment-agent/actions/workflows/python-tests.yml/badge.svg)](https://github.com/creativesolutions2013-debug/ai-vendor-risk-assessment-agent/actions/workflows/python-tests.yml)
 A portfolio demonstration of an AI-ready, human-governed workflow for
 evaluating third-party cybersecurity risks, evidence gaps, and remediation
 requirements.

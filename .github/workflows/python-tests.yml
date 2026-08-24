@@ -25,11 +25,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run vendor assessment
+      - name: Run rules-based vendor assessment
         run: python app.py
+
+      - name: Run simulated AI assessment
+        run: python ai_layer.py
 
       - name: Run automated tests
         run: python -m unittest discover -s tests -v
 
-      - name: Confirm generated report is current
-        run: git diff --exit-code outputs/sample-assessment.md
+      - name: Confirm generated reports are current
+        run: |
+          git diff --exit-code outputs/sample-assessment.md
+          git diff --exit-code outputs/ai-assisted-sample.md

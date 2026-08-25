@@ -108,7 +108,10 @@ Review the
 ```bash
 python app.py
 ```
+Run the simulated provider-neutral AI layer:
 
+```bash
+python ai_layer.py
 The application creates:
 
 ```text
@@ -140,19 +143,30 @@ The prompt design requires the AI-assisted layer to:
 - Document uncertainty and assumptions
 - Map findings to defined controls
 - Escalate material decisions for human review
-
 ## Current Implementation
 
-The current version uses deterministic Python rules to create a consistent
-baseline assessment. The repository also contains governed system and
-assessment prompts for the planned AI-assisted layer.
+The project uses a hybrid assessment architecture:
 
-This design allows future model-generated analysis to be compared against a
-repeatable rules-based baseline.
+1. A deterministic Python engine produces a repeatable baseline assessment.
+2. A provider-neutral AI layer assembles governed prompts, vendor context,
+   control requirements, and baseline findings.
+3. A mock provider simulates the external model boundary without making
+   network requests or requiring credentials.
+4. Automated tests validate prompt completeness, control traceability,
+   simulation labeling, and human-review requirements.
+5. GitHub Actions regenerates both reports and runs all 12 tests after every
+   code change.
+
+The mock provider is intentionally labeled and must not be represented as a
+production AI model. It can later be replaced by an approved provider that
+implements the same interface.
+
+Review the
+[simulated AI-assisted assessment](outputs/ai-assisted-sample.md).
 
 ## Planned Enhancements
 
-- Add a controlled LLM integration
+- Connect an approved LLM provider through the provider-neutral interface
 - Add evidence-document ingestion
 - Add retrieval from an approved control knowledge base
 - Add automated follow-up-question generation

@@ -198,5 +198,4 @@ Governance, Risk, and Compliance professional specializing in third-party
 risk management, security governance, control assurance, and AI-enabled GRC
 workflows.
 
-- [LinkedIn](https://www.linkedin.com/in/francis-a-1b66931a2)
-- [LMA Creative Solutions](https://www.lmacreativesolutions.com/)
+- [LinkedIn](https://www.linkedin.com/in/francis-a-1b66931a2

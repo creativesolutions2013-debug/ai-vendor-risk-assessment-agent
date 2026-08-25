@@ -117,6 +117,33 @@ The application creates:
 ```text
 outputs/sample-assessment.md
 ```
+## Browser Interface
+
+The Streamlit browser interface allows a reviewer to enter synthetic vendor
+information without editing source files.
+
+The interface supports:
+
+- Vendor and service information
+- Data-classification selection
+- Integration and access characteristics
+- Security-control responses
+- Rules-based risk assessment
+- Optional simulated provider-neutral AI review
+- Expandable findings
+- Markdown assessment downloads
+- JSON test-profile downloads
+- Mandatory synthetic-data confirmation
+
+Run the browser interface:
+
+```bash
+pip install -r requirements.txt
+streamlit run web_app.py
+```
+
+The interface must only be used with fictional or synthetic information.
+It does not approve vendors or accept security risk.
 
 ## Governance and Human Oversight
 

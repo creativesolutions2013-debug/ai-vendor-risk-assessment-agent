@@ -1,5 +1,17 @@
 # AI Vendor Risk Assessment Agent
 [![Vendor Assessment Tests](https://github.com/creativesolutions2013-debug/ai-vendor-risk-assessment-agent/actions/workflows/python-tests.yml/badge.svg)](https://github.com/creativesolutions2013-debug/ai-vendor-risk-assessment-agent/actions/workflows/python-tests.yml)
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-vendor-risk-assessment-agent-er5falappafzxkgzugercxm.streamlit.app/)
+
+## Try the Live Demo
+
+Test the human-governed third-party risk assessment workflow using fictional vendor information:
+
+**[Launch the Interactive Vendor Risk Assessment](https://ai-vendor-risk-assessment-agent-er5falappafzxkgzugercxm.streamlit.app/)**
+
+The demonstration lets reviewers enter a synthetic vendor scenario, evaluate security controls, generate preliminary risk findings, and optionally view a clearly labeled simulated AI-assisted review.
+
+> Use fictional or synthetic information only. Do not submit actual vendor evidence, personal information, credentials, or confidential employer data.
 A portfolio demonstration of an AI-ready, human-governed workflow for
 evaluating third-party cybersecurity risks, evidence gaps, and remediation
 requirements.
